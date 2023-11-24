@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRWithAngular.Server", "SignalRWithAngular.Server\SignalRWithAngular.Server.csproj", "{D1207117-0ECF-42A0-A5F2-432F7A62B3D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRWithAngular", "SignalRWithAngular\SignalRWithAngular.csproj", "{E9D125C0-0E7E-453A-8CF1-B0A8FEE7FB9A}"
 EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "signalrwithangular.client", "signalrwithangular.client\signalrwithangular.client.esproj", "{F78C4F62-7E6D-4568-99FD-A3A1B693E03D}"
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "angular", "angular\angular.esproj", "{AAA1C715-E28C-4A97-8530-3FD53ED5C289}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D1207117-0ECF-42A0-A5F2-432F7A62B3D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D1207117-0ECF-42A0-A5F2-432F7A62B3D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D1207117-0ECF-42A0-A5F2-432F7A62B3D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D1207117-0ECF-42A0-A5F2-432F7A62B3D5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F78C4F62-7E6D-4568-99FD-A3A1B693E03D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F78C4F62-7E6D-4568-99FD-A3A1B693E03D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F78C4F62-7E6D-4568-99FD-A3A1B693E03D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{F78C4F62-7E6D-4568-99FD-A3A1B693E03D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F78C4F62-7E6D-4568-99FD-A3A1B693E03D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F78C4F62-7E6D-4568-99FD-A3A1B693E03D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E9D125C0-0E7E-453A-8CF1-B0A8FEE7FB9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9D125C0-0E7E-453A-8CF1-B0A8FEE7FB9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9D125C0-0E7E-453A-8CF1-B0A8FEE7FB9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9D125C0-0E7E-453A-8CF1-B0A8FEE7FB9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAA1C715-E28C-4A97-8530-3FD53ED5C289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA1C715-E28C-4A97-8530-3FD53ED5C289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA1C715-E28C-4A97-8530-3FD53ED5C289}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AAA1C715-E28C-4A97-8530-3FD53ED5C289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA1C715-E28C-4A97-8530-3FD53ED5C289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAA1C715-E28C-4A97-8530-3FD53ED5C289}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
