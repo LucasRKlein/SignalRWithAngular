@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SignalRWithAngular.Data;
+using SignalRWithAngular.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -53,5 +54,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.MapFallbackToFile("/index.html");
+app.MapHub<UsersHub>("/hubs/usersHub");
 
 app.Run();
