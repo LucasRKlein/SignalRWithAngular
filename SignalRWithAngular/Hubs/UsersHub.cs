@@ -35,5 +35,13 @@ namespace SignalRWithAngular.Hubs
             await Clients.All.SendAsync("updateTotalViews", TotalViews);
             return $"total views from {name} - {TotalViews}";
         }
+
+        //public async Task<string> NewWindowLoaded()
+        //{
+        //    TotalViews++;
+        //    //Send Update to all CLients that total views have been updated
+        //    await Clients.All.SendAsync("updateTotalViews", TotalViews);
+        //    return $"total views from Lucas - {TotalViews}";
+        //}
     }
 }

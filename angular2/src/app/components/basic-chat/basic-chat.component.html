@@ -1,0 +1,21 @@
+<app-nav></app-nav>
+
+<div class="container">
+  <h2>Chat</h2>
+
+  <div class="row">
+    <label for="nome" class="form-label">Mandar Mensagem: </label>
+    <input id="nome" [(ngModel)]="mensagemEnviar" type="text" class="form-control">
+    <button type="button" (click)="sendMessage()">
+      <span class="badge">Enviar</span>
+    </button>
+  </div>
+
+  <ul>
+    <li *ngFor="let item of listaMensagens">
+      <button type="button">
+        <span class="badge">{{item}}</span>
+      </button>
+    </li>
+  </ul>
+</div>
